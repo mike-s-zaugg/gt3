@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GT3 Autos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/c73bc397e5.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@google/model-viewer/dist/model-viewer.min.js"></script>
+</head>
+<body>
+  <div id="smooth-wrapper">
+    <div id="smooth-content">
+
+      <header>
+        <div class="header-container">
+          <div class="row">
+            <div class="col-6">
+              <div class="logo">
+                <img class="logo-img" src="../../assets/gt-world-challenge-aws-neg-logo-2025.svg" />
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="container" id="icons-desktop">
+                <ul class="nav-list">
+                  <li class="nav-list-item"><div class="nav-item"><a href="index.html"><i class="fa-solid fa-home fa-xl"></i></a></div></li>
+                  <li class="nav-list-item"><div class="nav-item"><a href="autos.html"><i class="fa-solid fa-car fa-xl nav-active"></i></a></div></li>
+                  <li class="nav-list-item"><div class="nav-item"><a href="rennen.html"><i class="fa-solid fa-road fa-xl"></i></a></div></li>
+                  <li class="nav-list-item"><div class="nav-item"><a href="#"><i class="fa-solid fa-trophy fa-xl"></i></a></div></li>
+                </ul>
+              </div>
+              <div class="container" id="icons-mobile">
+                <i class="fa-solid fa-bars fa-2xl"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="content">
+        <div class="spacer-8"></div>
+        <h1 class="borderline fade-in-on-scroll">GT3 Fahrzeuge</h1>
+        <p class="fade-in-on-scroll">
+          Drei der bekanntesten GT3-Autos – jedes verkörpert die Seele seines Herstellers.  
+          Hier geht es nicht nur um Geschwindigkeit, sondern um Charakter auf der Strecke.
+        </p>
+      </main>
+
+      <main class="content">
+        <section class="track-section">
+          <div class="container">
+            <h2 class="text-center">Ikonen der GT3-Klasse</h2>
+            <div class="row">
+
+              <div class="col-md-6 col-12 fade-in-on-scroll">
+                <model-viewer 
+                    src="../../assets/glb/porsche_992_911_gt3_r.glb" 
+                    alt="Porsche 911 GT3 R" 
+                    camera-controls 
+                    auto-rotate 
+                    autoplay 
+                    exposure="1" 
+                    environment-image="neutral" 
+                    ar 
+                    loading="lazy" 
+                    style="width: 100%; height: auto; aspect-ratio: 16 / 9;">
+                </model-viewer>
+                <p class="license-hint">
+                    3D-Modell: <a href="https://sketchfab.com/3d-models/2023-porsche-911-gt3-r-d634485e0b2a4b07b66150b525009a6f" target="_blank">
+                        „2023 Porsche 911 GT3 R“ von DisneyCars
+                    </a> – Lizenz: CC-BY 4.0
+                </p>
+                <h3 class="track-title">Porsche 911 GT3 R</h3>
+                <ul>
+                  <li>Motor: 4.2L Sechszylinder-Boxer</li>
+                  <li>Leistung: ca. 565 PS</li>
+                  <li>Besonderheit: Heckmotor mit perfekter Traktion</li>
+                </ul>
+              </div>
+
+              <div class="col-md-6 col-12 fade-in-on-scroll">
+                <model-viewer 
+                    src="../../assets/glb/2020_mercedes-amg_gt3_evo.glb" 
+                    alt="Mercedes-AMG GT3" 
+                    camera-controls 
+                    auto-rotate 
+                    autoplay 
+                    exposure="1" 
+                    environment-image="neutral" 
+                    ar 
+                    loading="lazy" 
+                    style="width: 100%; height: auto; aspect-ratio: 16 / 9;">
+                </model-viewer>
+                <p class="license-hint">
+                    3D-Modell: <a href="https://sketchfab.com/3d-models/mercedes-amg-gt3-evo-2020-wwwvecarzcom-39e77243109f4e5cb7134b6f31c8f619" target="_blank">
+                        „Mercedes AMG GT3 Evo 2020“ von vecarz
+                    </a> – Lizenz: CC-BY 4.0
+                </p>
+                <h3 class="track-title">Mercedes-AMG GT3</h3>
+                <ul>
+                  <li>Motor: 6.3L V8-Saugmotor</li>
+                  <li>Leistung: ca. 550 PS</li>
+                  <li>Besonderheit: Frontmittelmotor für optimale Balance</li>
+                </ul>
+              </div>
+
+              <div class="col-md-6 col-12 fade-in-on-scroll">
+                <model-viewer 
+                    src="../../assets/glb/Ferrari 296 GT3.glb" 
+                    alt="Ferrari 296 GT3" 
+                    camera-controls 
+                    auto-rotate 
+                    autoplay 
+                    exposure="1" 
+                    environment-image="neutral" 
+                    ar 
+                    loading="lazy" 
+                    style="width: 100%; height: auto; aspect-ratio: 16 / 9;">
+                </model-viewer>
+                <p class="license-hint">
+                    3D-Modell: <a href="https://sketchfab.com/3d-models/ferrari-296-gt3-e6760847bb2d4b579d43cf916f348526" target="_blank">
+                        „Ferrari 296 GT3“ von goodvibes
+                    </a> – Lizenz: CC-BY 4.0
+                </p>
+
+                <h3 class="track-title">Ferrari 296 GT3</h3>
+                <ul>
+                  <li>Motor: 3.0L V6 Biturbo</li>
+                  <li>Leistung: ca. 600 PS</li>
+                  <li>Besonderheit: Hybrid-Technik verboten – also purer V6!</li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+        <section class="cta-section fade-in-on-scroll">
+          <div class="container text-center">
+            <h2>Welcher ist dein Favorit?</h2>
+            <p>Jedes Auto hat seine Eigenheiten. Wähle weise.</p>
+            <div class="cta-buttons">
+              <a href="rennen.html" class="btn btn-primary btn-cta">Rennen anschauen</a>
+              <a href="#" class="btn btn-secondary btn-cta">Fahrer entdecken</a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <div class="cursor-shadow"></div>
+
+    </div>
+  </div>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
