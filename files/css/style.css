@@ -315,6 +315,7 @@ main.content {
     padding: 50px;
     position: relative;
     overflow: hidden;
+    z-index: 2;
 }
 
 .stat-item {
@@ -348,6 +349,7 @@ main.content {
   width: 100%;
   height: auto;
   transform: translateY(-100%); 
+  z-index: 1;
 }
 
 .usp-bottom {
@@ -357,6 +359,7 @@ main.content {
   width: 100%;
   height: auto;
   transform: translateY(100%);
+  z-index: 1;
 }
 
 
