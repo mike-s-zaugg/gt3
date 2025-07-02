@@ -505,9 +505,11 @@ h3.track-title {
   margin-left: 10px;
   flex-shrink: 0;
 }
-model-viewer {
+.car-image {
   width: 100%;
-  height: 400px; /* oder höher */
+  height: auto;
+  max-height: 300px;
+  margin-bottom: 20px;
 }
 
 
