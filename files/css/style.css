@@ -508,8 +508,8 @@ h3.track-title {
 .car-image {
   width: 100%;
   height: auto;
-  max-height: 300px;
-  margin-bottom: 20px;
+  max-height: 200px;
+  margin: 0 auto 20px auto; 
 }
 
 
