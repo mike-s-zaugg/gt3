@@ -519,6 +519,9 @@ h3.track-title {
     border-radius: 30px;
     margin: 50px 0;
 }
+.car-cards ul{
+    list-style: none;
+}
 
 
 
