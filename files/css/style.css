@@ -532,7 +532,7 @@ h3.track-title {
   border-radius: 30px;
   border: 1px solid grey;
   background: linear-gradient(135deg, rgba(185, 212, 241, 0.05), rgba(252, 204, 0, 0.05));
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 .event-date {
   position: absolute;
