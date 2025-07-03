@@ -1,6 +1,6 @@
 # GT3 Racing Website
 
-Eine moderne, responsive Website über ikonische GT3-Rennfahrzeuge, Strecken und Events – gebaut mit HTML, CSS (inkl. Bootstrap), Font Awesome und `<model-viewer>`.
+Eine moderne, responsive Website über ikonische GT3-Rennfahrzeuge, Strecken und Events – gebaut mit HTML, CSS (inkl. Bootstrap) und Font Awesome 
 
 ---
 
