@@ -512,6 +512,13 @@ h3.track-title {
   display: block;
   margin: 0 auto 20px auto;
 }
+.car-card {
+    text-align: center;
+    padding: 100px 0;
+    background: linear-gradient(135deg, rgba(185, 212, 241, 0.05), rgba(252, 204, 0, 0.05));
+    border-radius: 30px;
+    margin: 50px 0;
+}
 
 
 
