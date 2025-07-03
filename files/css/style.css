@@ -260,7 +260,7 @@ main.content {
 }
 
 .card {
-    min-width: 350px;
+    max-width: 250px;
     height: 450px;
     background: linear-gradient(135deg, rgba(31, 31, 31, 0.9), rgba(42, 42, 42, 0.9));
     border-radius: 20px;
