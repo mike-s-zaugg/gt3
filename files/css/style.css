@@ -581,3 +581,27 @@ h3.track-title {
 }
 
 
+#icons-mobile {
+  position: relative;
+}
+
+#mobile-menu {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background-color: #222;
+  padding: 10px;
+  border-radius: 10px;
+  z-index: 999;
+}
+
+#mobile-menu li {
+  margin: 10px 0;
+}
+
+.d-none {
+  display: none;
+}
+
+
+
