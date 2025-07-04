@@ -263,6 +263,16 @@
         }
       }
 
+        document.addEventListener("DOMContentLoaded", () => {
+          const btn = document.getElementById("hamburger-btn");
+          const menu = document.getElementById("mobile-menu");
+        
+          btn.addEventListener("click", () => {
+            menu.classList.toggle("d-none");
+          });
+        });
+
+
       // Throttle scroll events
       window.addEventListener('scroll', requestTick);
 
