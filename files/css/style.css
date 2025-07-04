@@ -606,5 +606,22 @@ h3.track-title {
   display: none;
 }
 
+.input, .textarea {
+  background: linear-gradient(135deg, rgba(185, 212, 241, 0.05), rgba(252, 204, 0, 0.05));
+  border: 1px solid rgba(185, 212, 241, 0.2);
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 5px 15px;
+  border-radius: 10px;
+  max-width: 80%;
+  color: var(--primary);
+}
+.input {
+  height: 45px;
+}
+.input:focus, .textarea:focus {
+  outline: none;
+  box-shadow: 0 0 5px #fff;
+}
 
 
