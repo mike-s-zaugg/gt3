@@ -548,7 +548,7 @@ h3.track-title {
   width: auto;
   z-index: 2;
 }
-@media (max-width: 766px) {
+@media (max-width: 767px) {
     .event-date {
         top: -210px;
     }
