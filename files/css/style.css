@@ -162,6 +162,9 @@ header {
   height: auto;
   display: inline;
 }
+.logo-link {
+  text-decoration: none;
+}
 
 .header-container {
   display: flex;
