@@ -623,6 +623,9 @@ h3.track-title {
   outline: none;
   box-shadow: 0 0 5px #fff;
 }
+.btn-submit {
+  margin-bottom: 30px;
+}
 
 footer {
   background: linear-gradient(135deg, rgba(185, 212, 241, 0.05), rgba(252, 204, 0, 0.05));
