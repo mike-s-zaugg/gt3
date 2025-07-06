@@ -616,6 +616,9 @@ h3.track-title {
   max-width: 80%;
   color: var(--primary);
 }
+.textarea {
+  min-height: 300px;
+}
 .input {
   height: 45px;
 }
